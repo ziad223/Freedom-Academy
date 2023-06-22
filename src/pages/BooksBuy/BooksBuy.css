@@ -1,0 +1,50 @@
+.buys-book{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ccc;
+    padding: 20px;
+}
+.buys-book .buys-books-title{
+    background-color: #fff;
+    width: max-content;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.book{
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+}
+.books .book img{
+width: 400px;
+}
+.book-now{
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 2px dotted #000;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;    
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.book-now:hover{
+    background-color: #000;
+    color: #fff;
+}

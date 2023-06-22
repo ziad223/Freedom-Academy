@@ -1,0 +1,65 @@
+.french-learning{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.french-learning-title{
+    background-color: #ccc;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: max-content;
+    margin: 40px auto;
+    color: var(--main-color);
+    border-radius: 10px;
+}
+.french-learning .box{
+    background-color: #ccc;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.french-learning .box h2{
+ color: var(--main-color);
+ margin-bottom: 20px;
+ font-weight: bold;
+ font-size: 30px;
+}
+
+.french-learning .box p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.french-learning .box p strong{
+    font-size: 25px;
+    display: block;
+    margin: 30px 0px;
+    color: var(--main-color);
+}
+.french-learning .box button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #0075ff;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.french-learning .box button:hover{
+    background-color: #54779f;
+    
+}
+
+@media screen and (max-width : 500px) {
+     
+    .french-learning-title{
+        background-color: #ccc;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        line-height: 1.6;
+    }
+    
+}

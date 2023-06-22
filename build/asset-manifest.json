@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bdbc060b.css",
+    "main.js": "/static/js/main.bd3f8305.js",
+    "static/media/about-2.jpg": "/static/media/about-2.b3e902ce81d1fd8f0113.jpg",
+    "static/media/german.jfif": "/static/media/german.11e9ce7ce824fdda13d1.jfif",
+    "static/media/english.jfif": "/static/media/english.1ae9e5f78e8b2cc0b427.jfif",
+    "static/media/paython.jfif": "/static/media/paython.b695fa9c853c3088596d.jfif",
+    "static/media/freedom.png": "/static/media/freedom.d15397a5688761170c16.png",
+    "static/media/graphic.jfif": "/static/media/graphic.fe3475ef7f1849921e10.jfif",
+    "static/media/marketing.jfif": "/static/media/marketing.9bb774e057e8f9d25449.jfif",
+    "static/media/icdl.jfif": "/static/media/icdl.8e21115c978945cb5aec.jfif",
+    "static/media/air.jfif": "/static/media/air.5d765125ef6de586a042.jfif",
+    "static/media/frontend.jfif": "/static/media/frontend.e2083351414fa3624e84.jfif",
+    "static/media/about-dark-1.jpg": "/static/media/about-dark-1.9ca5b2c034c100a20eaa.jpg",
+    "static/media/french.jfif": "/static/media/french.f26fff2c52d6b617fc0e.jfif",
+    "index.html": "/index.html",
+    "main.bdbc060b.css.map": "/static/css/main.bdbc060b.css.map",
+    "main.bd3f8305.js.map": "/static/js/main.bd3f8305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdbc060b.css",
+    "static/js/main.bd3f8305.js"
+  ]
+}

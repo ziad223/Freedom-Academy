@@ -1,0 +1,70 @@
+.italy-learning{
+    padding-top: 100px;
+    padding-bottom: 100px;
+ 
+ }
+ 
+ .italy-learning-title{
+     background-color: #ccc;
+     padding: 20px;
+     font-size: 30px;
+     border-radius: 10px;
+     text-align: center;
+     width: max-content;
+     margin:  40px auto;
+  color: var(--main-color);
+
+ }
+ .italy-learning .box{
+     background-color: #ccc;
+     padding: 30px;
+     margin-top: 50px;
+     border-radius: 10px;
+ }
+ .italy-learning .box h2{
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+ }
+ 
+ .italy-learning .box p {
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 1.5;
+ }
+ .italy-learning .box p strong{
+    font-size: 25px;
+    display: block;
+    margin: 30px 0px;
+    color: rgb(138, 31, 31);
+}
+.words{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+}
+ .italy-learning .box button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #0075ff;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+ 
+@media screen and (max-width : 500px) {
+     
+    .italy-learning-title{
+        background-color: #ccc;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        line-height: 1.6;
+    }
+    
+  }

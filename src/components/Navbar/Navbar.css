@@ -1,0 +1,375 @@
+.navbar{
+  background-color: #ccc;
+  padding: 10px;
+  color: #000;
+  position: s;
+  top: 0;
+  width: 100%;
+}
+.navbar-s{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+  }
+  .navbar .logo img{
+    width: 60px;
+  }
+  .navbar .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .navbar .links .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+  }
+  .navbar .links .link h2{
+    font-size: 22px;
+  }
+  .navbar .links ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 10px; 
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    width: 200px;
+
+  }
+  .navbar .links .link ul li {
+    display: block;
+    font-size: 20px;
+
+  }
+
+  .navbar .links .link ul .link-item{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+
+  }
+  .navbar .links .link ul .link-item:hover{
+    background-color: #ccc;
+  }
+
+  .education-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    color: var(--main-color);
+  }
+  .education-part:hover{
+    color: rgb(211, 27, 211);
+  }
+
+
+
+  .plan-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    color: var(--main-color);
+
+  }
+
+  .plan-part:hover{
+    color: rgb(211, 27, 211);
+
+  }
+
+  .now-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 5px;
+    transition: all 0.5s ease;
+    color: var(--main-color);
+
+
+  }
+
+  .now-part:hover{
+    color: rgb(211, 27, 211);
+  }
+
+
+  .channels-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    color: var(--main-color);
+
+
+  }
+  .channels-part:hover{
+    color: rgb(211, 27, 211);
+
+  }
+
+  #nav-list{
+    width: 300px;
+    direction: ltr;
+    border-radius: 10px;
+    z-index: 999;
+  }
+  .list{
+    width: 100%;
+  }
+
+.youtube{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.youtube-icon{
+  font-size: 20px;  
+  color: red;
+}
+
+.youtube:hover{
+  background-color: #ccc;
+}
+.icon-paragraph{
+  font-size: 18px;
+}
+
+.facebook{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.facebook-icon{
+  color: #3b5998;
+  font-size: 18px;
+}
+
+.facebook:hover{
+  background-color: #ccc;
+}
+
+.twitter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.twitter-icon{
+  color: #00acee;
+  font-size: 18px;
+}
+
+.twitter:hover{
+  background-color: #ccc;
+}
+
+
+.tiktok{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tiktok-icon{
+  font-size: 18px;
+}
+
+.tiktok:hover{
+  background-color: #ccc;
+}
+
+
+.instegram{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.instegram-icon{
+  color: rgb(188, 11, 11);
+  font-size: 18px;
+}
+
+.instegram:hover{
+  background-color: #ccc;
+}
+
+
+@media screen and (max-width : 768px) {
+
+  .navbar-s{
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+    .navbar .logo img{
+      width: 30px;
+    }
+    .navbar .logo-title{
+      font-size: 18px;
+    }
+    .navbar .links{
+      flex-direction: column;
+      gap: 30px;
+    }
+    .navbar .links .link h2{
+      font-size: 20px;
+    }
+    .navbar .links ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      position: absolute;
+      top: 10px; 
+      margin-top: 30px;
+      background-color: #fff;
+      padding: 20px;
+      width: 200px;
+  
+    }
+    .navbar .links .link ul li {
+      display: block;
+      font-size: 20px;
+  
+    }
+  
+    .navbar .links .link ul .link-item{
+      text-decoration: none;
+      color: #000;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+      z-index: 999;
+  
+    }
+    .navbar .links .link ul .link-item:hover{
+      background-color: #ccc;
+    }
+  
+    .education-part{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-size: 20px;
+      border-radius: 10px;
+      transition: all 0.5s ease;
+      color: var(--main-color);
+    }
+    .education-part:hover{
+      color: rgb(211, 27, 211);
+    }
+  
+  
+  
+    .plan-part{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-size: 20px;
+      transition: all 0.5s ease;
+      color: var(--main-color);
+  
+    }
+  
+    .plan-part:hover{
+      color: rgb(211, 27, 211);
+  
+    }
+  
+    .now-part{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      gap: 5px;
+      transition: all 0.5s ease;
+      color: var(--main-color);
+  
+  
+    }
+  
+    .now-part:hover{
+      color: rgb(211, 27, 211);
+    }
+  
+  
+    .channels-part{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-size: 20px;
+      transition: all 0.5s ease;
+      color: var(--main-color);
+  
+  
+    }
+    .channels-part:hover{
+      color: rgb(211, 27, 211);
+  
+    }
+  
+    #nav-list{
+      width: 300px;
+      direction: ltr;
+      border-radius: 10px;
+      z-index: 999;
+      background-color: #555;
+    }
+    #nav-list .link-item{
+      color: #fff;
+    }
+    #nav-list .link-item:hover{
+      color: #fff;
+      background-color: #333;
+    }
+
+  
+  
+}

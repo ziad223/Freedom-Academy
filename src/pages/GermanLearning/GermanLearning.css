@@ -1,0 +1,111 @@
+.german-learning{
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+ 
+ .german-learning-title{
+     background-color: #fff;
+     padding: 20px;
+     font-size: 30px;
+     text-align: center;
+     width: max-content;
+     margin: 40px auto;
+     border-radius: 10px;
+     color: var(--main-color);
+ }
+ .german-learning .box{
+     padding: 30px;
+     margin-top: 50px;
+     border-radius: 10px;
+     background-color: #ccc;
+ }
+ .german-learning .box h2{
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+ }
+ 
+ .german-learning .box p {
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 1.8;
+ }
+ .german-learning .box p ul{
+    margin: 20px 30px;
+ }
+ .german-learning .box p strong {
+   font-weight: bold;
+   font-size: 28px;
+ }
+ table{
+    margin: 40px auto;
+    text-align: center;
+    width: 800px;
+ }
+ table tr{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ table th{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+   }
+   table td{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+   }
+ .german-learning .box .level{
+     margin: 20px 0px;
+ }
+ .german-learning .box .level h3{
+    margin: 10px 0px;
+    font-size: 25px;
+    border-bottom: 3px solid #000;
+    width: max-content;
+ }
+ .german-learning .box .level p{
+     margin: 10px 0px;
+ }
+   .b{
+     font-size: 20px;
+ }
+   .ss{
+     font-weight: bold;
+     line-height: 2;
+ }
+ .german-learning .box span{
+     font-size: 20px;
+ }
+ .german-learning .box button{
+     margin-top: 20px;
+     padding: 15px;
+     border-radius: 10px;
+     background-color: var(--main-color);
+     border: none;
+     color: #fff;
+     font-size: 20px;
+     cursor: pointer;
+     transition: all 0.5s ease;
+ }
+ .german-learning .box button:hover{
+     background-color: #54779f;
+ }
+ 
+ @media screen and (max-width : 500px) {
+     
+  .german-learning-title{
+      background-color: #ccc;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      line-height: 1.6;
+  }
+  
+}
+
+ 

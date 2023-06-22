@@ -1,0 +1,20 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --main-color : rgb(131, 18, 131) ;
+    --secondary-color : gold ;
+  
+  }
+  body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    background-color: #ffff;
+
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
